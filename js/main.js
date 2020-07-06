@@ -13,13 +13,5 @@
 			items_per_row: 4,
 			margin: 1,
 		});
-
-		$(document).ready(function () {
-			console.log('hallo');
-			$('.hover').on('touchenter touchleave', function (e) {
-				e.preventDefault();
-				$(this).toggleClass('hover_effect');
-			});
-		});
 	});
 })(jQuery);

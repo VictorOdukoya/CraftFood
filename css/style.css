@@ -8,7 +8,9 @@
 		font-style: italic;
 	*/
 }
-
+html {
+	scroll-behavior: smooth;
+}
 body {
 	background-color: #f9f9f9;
 	font-family: 'Raleway', sans-serif;
@@ -226,16 +228,24 @@ h1 {
 	margin: 20px 0;
 }
 
-.more-button {
+.more-button div {
 	background-color: #37424a;
 	border-style: none;
-	padding: 13px 50px;
+	padding: 13px 40px;
 	color: white;
 	font-weight: 800;
 	margin-top: 12px;
 	border-radius: 0;
 	cursor: pointer;
 	max-width: 210px;
+	font-family: inherit;
+	font-size: inherit;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.more-button {
+	text-decoration: none;
 }
 
 .hor-line {
