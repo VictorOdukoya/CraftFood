@@ -34,6 +34,10 @@ a {
 	color: black;
 }
 
+a:active {
+	color: #80cc28;
+}
+
 .green {
 	color: #80cc28;
 }
@@ -246,6 +250,15 @@ h1 {
 
 .more-button {
 	text-decoration: none;
+}
+
+.more-button:hover div {
+	background-color: #80cc28;
+}
+
+.more-button:active div {
+	background-color: #ffffff;
+	color: black;
 }
 
 .hor-line {
@@ -608,11 +621,19 @@ footer ul a {
 
 	.header ul a:hover {
 		background-color: #80cc28;
-		/* #37424a; */
+	}
+
+	.header ul a:active {
+		background-color: white;
+		color: black;
 	}
 
 	.header ul a:hover span {
 		color: white;
+	}
+
+	.header ul a:active span {
+		color: black;
 	}
 
 	nav {
