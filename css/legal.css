@@ -5,6 +5,7 @@
 
 .legal-section p {
 	line-height: 1.6em;
+	padding-top: 20px;
 }
 
 .legal {
@@ -37,11 +38,6 @@
 		display: block;
 	}
 
-	.legal-section p {
-		padding-top: 20px;
-
-		/* text-align: justify; */
-	}
 	.legal-info-text1 {
 		float: left;
 		width: 50%;

@@ -6,6 +6,7 @@
 .privacy-section p {
 	line-height: 1.3em;
 	font-size: 0.8em;
+	margin-top: 20px;
 }
 
 .privacy {
@@ -26,10 +27,5 @@
 
 	.privacy-section {
 		display: block;
-	}
-
-	.privacy-section p {
-		padding-top: 20px;
-		/* text-align: justify; */
 	}
 }

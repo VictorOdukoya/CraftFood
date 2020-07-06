@@ -581,15 +581,14 @@ footer ul a {
 		padding: 15px 10px;
 	} */
 
-	.menu-contact {
+	.highlight-nav-link {
 		background-color: #37424a;
 	}
-
-	.menu-contact a {
+	.highlight-nav-link a {
 		color: white;
 	}
 
-	.menu-contact a:hover {
+	.highlight-nav-link a:hover {
 		color: black;
 	}
 
