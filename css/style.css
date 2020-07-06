@@ -76,10 +76,8 @@ a {
 .header .logo {
 	display: block;
 	box-sizing: border-box;
-	padding: 10px 0;
-	margin: 10px 0 10px 10px;
-	max-width: 30%;
-	height: 58px;
+	height: 100%;
+	padding: 10px 0 5px 10px;
 	float: left;
 }
 
@@ -102,6 +100,10 @@ a {
 	position: relative;
 	float: right;
 	cursor: pointer;
+}
+
+nav {
+	clear: both;
 }
 
 .header .menu-icon .nav-icon {
@@ -162,7 +164,7 @@ a {
 	}
 
 	.header li a {
-		padding: 20px 30px;
+		box-sizing: border-box;
 	}
 
 	.header .menu {
@@ -217,6 +219,7 @@ h1 {
 .slogan {
 	background-color: #f8f8f8;
 	padding: 40px;
+	box-sizing: border-box;
 }
 
 .slogan-section p {
@@ -481,7 +484,7 @@ footer ul a {
 	margin-bottom: 20px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 48em) {
 	.container {
 		margin: 58px auto 0 auto;
 		max-width: 1200px;
@@ -574,9 +577,9 @@ footer ul a {
 		padding: 5px 0;
 	}
 
-	.header li a {
+	/* .header li a {
 		padding: 15px 10px;
-	}
+	} */
 
 	.menu-contact {
 		background-color: #37424a;
@@ -601,5 +604,9 @@ footer ul a {
 
 	.header ul a:hover span {
 		color: white;
+	}
+
+	nav {
+		clear: none;
 	}
 }
