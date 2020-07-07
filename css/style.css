@@ -8,6 +8,10 @@
 		font-style: italic;
 	*/
 }
+
+img {
+	width: 100%;
+}
 html {
 	scroll-behavior: smooth;
 }
@@ -280,11 +284,7 @@ h1 {
 }
 
 .intro-image {
-	height: 300px;
-	line-height: 300px;
 	width: 95%;
-	background-color: white;
-	color: black;
 	text-align: center;
 	margin: 20px 0 30px 0;
 }
