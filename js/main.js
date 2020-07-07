@@ -3,6 +3,7 @@
 		$.instagramFeed({
 			username: 'craft.food.blog',
 			container: '#instagram-feed',
+			// tag: 'instafood',
 			display_profile: false,
 			display_biography: false,
 			display_gallery: true,
