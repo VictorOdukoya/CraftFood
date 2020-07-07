@@ -53,6 +53,18 @@
 	font-size: 0.9em;
 }
 
+.contact input[type='submit']:hover {
+	background-color: #f8f8f8;
+	cursor: pointer;
+	color: black;
+}
+
+.contact input[type='submit']:active {
+	background-color: #f8f8f8;
+	cursor: pointer;
+	color: #80cc28;
+}
+
 .contact input[type='text']:focus,
 .contact input[type='email']:focus,
 .contact textarea:focus {
@@ -65,9 +77,13 @@
 	body {
 		background-color: #37424a;
 	}
-	.footer * {
+
+	.footer a,
+	.footer p,
+	.footer h3 {
 		color: white;
 	}
+
 	.contact {
 		color: white;
 		background-color: #37424a;
@@ -94,5 +110,13 @@
 		float: left;
 		width: 50%;
 		margin-right: 20px;
+	}
+
+	.footer ul a:active {
+		color: #f8f8f8;
+	}
+
+	.footer ul a:hover {
+		color: #80cc28;
 	}
 }
